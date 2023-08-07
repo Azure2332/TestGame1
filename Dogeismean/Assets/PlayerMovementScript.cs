@@ -22,7 +22,6 @@ public class PlayerMovementScript : MonoBehaviour
         Movement.y = Input.GetAxisRaw("Vertical");
         if (Input.GetKeyDown(KeyCode.E))
         {
-
             Debug.Log("YOU PRESSED E GREAT JOB");
 
         }
